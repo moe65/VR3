@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/afternoon.unity
+  isLoaded: 1
+  isActive: 1
