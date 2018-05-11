@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ballgame\UnityAnimator.cs" />
      <Compile Include="Assets\catchScript.cs" />
      <Compile Include="Assets\Elf\Script\Elf_Manager.cs" />
      <Compile Include="Assets\Elf\Script\Manager.cs" />
@@ -159,13 +160,17 @@
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\InkScript.cs" />
      <Compile Include="Assets\Motion.cs" />
+     <Compile Include="Assets\SceneLoad1.cs" />
+     <Compile Include="Assets\SceneLoad2.cs" />
      <Compile Include="Assets\TaichiCharacterPack\TwinViewer\Scripts\Twin2ndSceneScript.cs" />
      <Compile Include="Assets\TaichiCharacterPack\TwinViewer\Scripts\TwinSceneScript.cs" />
      <Compile Include="Assets\TaichiCharacterPack\TwinViewer\Scripts\TwinViewScript.cs" />
      <Compile Include="Assets\TaichiCharacterPack\Viewer\Scripts\SceneScript.cs" />
      <Compile Include="Assets\TaichiCharacterPack\Viewer\Scripts\ViewScript.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-     <Compile Include="Assets\UnityAnimator.cs" />
+     <Compile Include="Assets\UnityChan\Amimators\NewBehaviourScript.cs" />
+     <Compile Include="Assets\UnityChan\Amimators\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\UnityChan\Scripts\afternoonUnitychanMotion.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
