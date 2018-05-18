@@ -8,6 +8,7 @@ public class SceneLoad1 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		Invoke ("loadScene1", 10f);
+
 	}
 	
 	// Update is called once per frame
@@ -16,6 +17,6 @@ public class SceneLoad1 : MonoBehaviour {
 	}
 
 	void loadScene1(){
-		SceneManager.LoadScene ("ballgame");
+		SceneManager.LoadScene ("day1");
 	}
 }

@@ -64,7 +64,6 @@
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\GVRDemo\HeadsetDemoManager.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\GVRDemo\Teleport.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\KeyboardDemo\KeyboardDelegateExample.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\VideoDemo\AppButtonInput.cs" />
@@ -77,14 +76,6 @@
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\VideoDemo\ToggleAction.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\VideoDemo\VideoControlsManager.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Demos\Scripts\VideoDemo\VideoPlayerReference.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\Audio\GvrAudio.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\Audio\GvrAudioListener.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\Audio\GvrAudioRoom.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\Audio\GvrAudioSoundfield.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\Audio\GvrAudioSource.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\GvrController.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\GvrControllerVisualManager.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Scripts\GvrPointerManager.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Scripts\Cardboard\GvrReticlePointer.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Scripts\Controller\ArmModel\GvrArmModel.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Scripts\Controller\ArmModel\GvrBaseArmModel.cs" />
@@ -288,6 +279,7 @@
      <Compile Include="Assets\TaichiCharacterPack\Viewer\Scripts\ViewScript.cs" />
      <Compile Include="Assets\UnityChan\Amimators\NewBehaviourScript.cs" />
      <Compile Include="Assets\UnityChan\Amimators\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\UnityChan\Amimators\NewBehaviourScript2.cs" />
      <Compile Include="Assets\UnityChan\Scripts\afternoonUnitychanMotion.cs" />
      <Compile Include="Assets\UnityChan\Scripts\afternoonUnitychanMotion1.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
@@ -300,6 +292,7 @@
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\plugin\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\UnityMaker\Sounds\Voice1\unity-chan_voice_list.txt" />
      <None Include="Assets\plugin\VRSampleScenes\Shaders\UnlitTransparentParam.shader" />
      <None Include="Assets\UnityChan\license.txt" />
      <None Include="Assets\plugin\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
@@ -336,6 +329,7 @@
      <None Include="Assets\plugin\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\plugin\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\plugin\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\UnityMaker\Sounds\Voice2\unitychan_voicepack_140801_voicelist.txt" />
      <None Include="Assets\plugin\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\plugin\GoogleVR\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\plugin\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

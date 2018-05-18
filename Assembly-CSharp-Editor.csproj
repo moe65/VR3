@@ -62,10 +62,6 @@
      <Compile Include="Assets\plugin\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Editor\GvrEditorMenu.cs" />
      <Compile Include="Assets\plugin\GoogleVR\Editor\GvrEditorSettings.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
-     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
      <Compile Include="Assets\plugin\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
      <Compile Include="Assets\plugin\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
  <Reference Include="UnityEngine.UI">
