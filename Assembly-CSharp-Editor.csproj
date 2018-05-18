@@ -51,23 +51,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
-     <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
-     <Compile Include="Assets\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
-     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Demos\Editor\DemoInputManagerEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Demos\Editor\PermissionsDemoBuildProcessor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\GvrBuildProcessor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\GvrEditorEmulatorEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\GvrEditorMenu.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Editor\GvrEditorSettings.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioListenerEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioRoomEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioSoundfieldEditor.cs" />
+     <Compile Include="Assets\plugin\GoogleVR\Legacy\Editor\Audio\GvrAudioSourceEditor.cs" />
+     <Compile Include="Assets\plugin\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\plugin\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -141,7 +141,7 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/moe arai/Desktop/UnityFile/VR/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/moe arai/Desktop/UnityFile/VR/Assets/plugin/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/moe arai/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
@@ -172,12 +172,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{BBA56AF3-F7E3-E257-EDBF-CC6022682074}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{780F136A-D83F-6325-96D9-2AB507E28714}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
-      <Project>{1D3730F8-4B0D-7E7A-5FEE-AB8B195578A7}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
