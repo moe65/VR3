@@ -5,18 +5,87 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/afternoon.unity
+  - enabled: 1
+    path: Assets/game/Scenes/day1/Intro.unity
+    guid: cd7201139c2b4d946b0bd595d475e907
+  - enabled: 1
+    path: Assets/game/Scenes/day1/afternoon.unity
     guid: 1809f8f91c698da4aa33107e77d6c32f
   - enabled: 1
-    path: Assets/Scenes/ballgame.unity
+    path: Assets/game/Scenes/day1/ballgame.unity
     guid: 692425cb114491b4aa504bb9760ea347
-  - enabled: 0
-    path: Assets/Scenes/firegame.unity
-    guid: 2fd75b91c0df8be4da27e7d304f9641b
   - enabled: 1
-    path: Assets/Scenes/Intro.unity
-    guid: cd7201139c2b4d946b0bd595d475e907
-  - enabled: 0
-    path: Assets/Scenes/livingroom.unity
-    guid: 67a7ecd62979a7241b73d67e80ab3f68
+    path: Assets/game/Scenes/day1/breakfast.unity
+    guid: 09cff08b30f82104ab43d0f5e9ae13c6
+  - enabled: 1
+    path: Assets/game/Scenes/day1/breakfast1.unity
+    guid: af30f5fc21cfbe44ba66c2fa40d82a3e
+  - enabled: 1
+    path: Assets/game/Scenes/day1/day1.unity
+    guid: 0b8b1fad80aba7541a516444bd05da63
+  - enabled: 1
+    path: Assets/game/Scenes/day1/dinner.unity
+    guid: eda477f0deeb54b479d2712ce73b94c1
+  - enabled: 1
+    path: Assets/game/Scenes/day1/dinner1.unity
+    guid: 3ee8216534721cd4686226437bd4e9b4
+  - enabled: 1
+    path: Assets/game/Scenes/day1/goodnight.unity
+    guid: 349dbaf5667279146aafc2244d50bea4
+  - enabled: 1
+    path: Assets/game/Scenes/day1/morning.unity
+    guid: d1b0e3f20489309419d8d45ea4774362
+  - enabled: 1
+    path: Assets/game/Scenes/day2/afternoon2.unity
+    guid: 546c2f3a9a6cb694ba97794c40dd60a9
+  - enabled: 1
+    path: Assets/game/Scenes/day2/ballgame2.unity
+    guid: e0b640ffb20025c4098b4a446c4cf143
+  - enabled: 1
+    path: Assets/game/Scenes/day2/breakfast2.unity
+    guid: aa33c7f10a0e2e640a1f655d6950b383
+  - enabled: 1
+    path: Assets/game/Scenes/day2/breakfast2-2.unity
+    guid: b9d544f00e8fa5a4aa88e81bc3e40fdd
+  - enabled: 1
+    path: Assets/game/Scenes/day2/day2.unity
+    guid: 540f0ab442b916b4c8fe22140d77f158
+  - enabled: 1
+    path: Assets/game/Scenes/day2/dinner2.unity
+    guid: 1d6d849f23923cc49ba2bde270b027c5
+  - enabled: 1
+    path: Assets/game/Scenes/day2/dinner2-2.unity
+    guid: 58209f02b7dd38c47a6095b5cce4cc5c
+  - enabled: 1
+    path: Assets/game/Scenes/day2/goodnight2.unity
+    guid: 3f07f21c6710d0949aafec42fb675642
+  - enabled: 1
+    path: Assets/game/Scenes/day2/morning2.unity
+    guid: 9b571488c2077094e8969b6d0f0e89a9
+  - enabled: 1
+    path: Assets/game/Scenes/day3/afternoon3.unity
+    guid: 73451197882b60944ad0f5737b27d900
+  - enabled: 1
+    path: Assets/game/Scenes/day3/ballgame3.unity
+    guid: 6897592984ea795469f4149575158aba
+  - enabled: 1
+    path: Assets/game/Scenes/day3/breakfast2-3.unity
+    guid: 1adff8c3cf10d8e418723261e9b0cc11
+  - enabled: 1
+    path: Assets/game/Scenes/day3/breakfast3.unity
+    guid: 643864194685b4e4bb5bc49769384951
+  - enabled: 1
+    path: Assets/game/Scenes/day3/day3.unity
+    guid: be30d4ef2b4c00a40936dbd769469fc3
+  - enabled: 1
+    path: Assets/game/Scenes/day3/dinner2-3.unity
+    guid: 251c508c6b8dd3b4ca3dbe7363176d3d
+  - enabled: 1
+    path: Assets/game/Scenes/day3/dinner3.unity
+    guid: 54294e662a8ff964da61daea8dc869f2
+  - enabled: 1
+    path: Assets/game/Scenes/day3/goodnight3.unity
+    guid: e6225655aa83d74408ab6294e939e25d
+  - enabled: 1
+    path: Assets/game/Scenes/day3/morning3.unity
+    guid: 6d5b40a5ffcc7e242a49d21387fb3123
